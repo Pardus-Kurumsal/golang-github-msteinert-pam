@@ -1,0 +1,6 @@
+golang-github-msteinert-pam (0.0~git20151204.0.02ccfbf-1) zesty; urgency=medium
+
+  [ Michael Lustfield ]
+  * Initial release (Closes: #857252)
+
+ -- lilongyu <leaeasy@gmail.com>  Mon, 31 Jul 2017 16:10:45 +0800

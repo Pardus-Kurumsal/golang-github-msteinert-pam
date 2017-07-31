@@ -1,0 +1,27 @@
+Source: golang-github-msteinert-pam
+Section: devel
+Priority: extra
+Maintainer: Debian Go Packaging Team <pkg-go-maintainers@lists.alioth.debian.org>
+Uploaders: Michael Lustfield <michael@lustfield.net>
+Build-Depends: debhelper (>= 10),
+               dh-golang,
+               golang-any,
+               golang-github-bgentry-speakeasy-dev,
+               libpam0g-dev
+Standards-Version: 3.9.8
+Homepage: https://github.com/msteinert/pam
+Vcs-Browser: https://anonscm.debian.org/cgit/pkg-go/packages/golang-github-msteinert-pam.git
+Vcs-Git: https://anonscm.debian.org/git/pkg-go/packages/golang-github-msteinert-pam.git
+XS-Go-Import-Path: github.com/msteinert/pam
+
+Package: golang-github-msteinert-pam-dev
+Architecture: all
+Depends: ${shlibs:Depends},
+         ${misc:Depends},
+         golang-github-bgentry-speakeasy-dev
+Description: Go wrapper module for the PAM API
+ This library provides a wrapper for the Pluggable Authentication
+ Modules (PAM) API. This wrapper includes session management,
+ authentication, account management, etc.
+ .
+ Documentation: https://godoc.org/github.com/msteinert/pam
